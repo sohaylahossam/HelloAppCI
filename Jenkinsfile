@@ -1,7 +1,7 @@
 pipeline {
   agent any
   environment {
-    DOCKERHUB_REPO = "ahmedlebshten/helloapp"
+    DOCKERHUB_REPO = "sohaylahossam/helloappartifact"
     IMAGE_TAG = "${env.BUILD_NUMBER}"
   }
   stages {
